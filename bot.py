@@ -62,7 +62,7 @@ import random
 import string
 
 # === ENCRYPTED TOKEN SECTION ===
-#encrypted_token = "wdd}9)fmyP*RZJg(~3mVe0|TM&p`4|~hdw7!7EMwJ *YAu@-h"
+#encrypted_token = ""
 
 # Decrypt the token
 #decrypted_chars = []
