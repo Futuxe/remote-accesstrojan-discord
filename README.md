@@ -57,18 +57,22 @@ Simply insert anything in the following table and it will replace it respectivel
 
 # ⚒️ Setup
 
-# Packaging main.py into an .exe with PyInstaller
+Packaging main.py into an .exe with PyInstaller
 
-## 1. Install Python dependencies
+Install Python dependencies
 Download  `requirements.txt ` and `bot.py` and.:
 Then install everything:
-`pip install -r requirements.txt`
-## 2. Install PyInstaller
-`
-pip install pyinstaller
-`
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
 
-## 3. Build the executable
+Install PyInstaller
+
+\`\`\`bash
+pip install pyinstaller
+\`\`\`
+
+Build the executable
 From the folder containing main.py:
 
 `pyinstaller --onefile main.py`
@@ -82,16 +86,14 @@ Useful optional flags:
 - `--name=YourAppName` — set the output filename
 - `--add-data "source;dest"` — bundle extra files (configs, assets)
 
-## 4. Find your .exe
+Find your .exe
 After building, it'll be in:
 
-\`\`\`
-dist/main.exe
-\`\`\`
+`dist/main.exe`
 
 The `build/` folder and `.spec` file are just intermediate build artifacts and can be deleted.
 
-## 5. Test it
+Test it
 Run `dist/main.exe` on a clean machine (or VM) without Python installed, to confirm all dependencies were bundled correctly.
 
 ---
