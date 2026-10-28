@@ -25,12 +25,6 @@ Open up `bot.py` and edit the values, refer to the key below.
 **WEBHOOK:** `Your DISCORD BOT HOOK!` <br>
 
 
-
-
-* **2)** `RICHMESSAGE`
-Rich Message allows you to insert variables such as the client's IP, Location, ASN, etc. for the Crashbrowser message. <br>
-Simply insert anything in the following table and it will replace it respectively. <br>
-
 | Commands |
 |--------|
 | `!kill` TERMINATE bot. |
