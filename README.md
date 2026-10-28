@@ -62,22 +62,16 @@ Simply insert anything in the following table and it will replace it respectivel
 ## 1. Install Python dependencies
 Download  `requirements.txt ` and `bot.py` and.:
 Then install everything:
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
-
+`pip install -r requirements.txt`
 ## 2. Install PyInstaller
-
-\`\`\`bash
+`
 pip install pyinstaller
-\`\`\`
+`
 
 ## 3. Build the executable
 From the folder containing main.py:
 
-\`\`\`bash
-pyinstaller --onefile main.py
-\`\`\`
+`pyinstaller --onefile main.py`
 
 - `--onefile` bundles everything into a single .exe
 - Omit it if you want a folder with the .exe plus its dependencies instead (faster startup, easier to inspect)
